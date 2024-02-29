@@ -20,7 +20,7 @@ ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("App
 		//CRUD
 		
 		//ADD
-		categoriasService.add(0, null, null, null);
+		categoriasService.add(0, "verduras"," son buenas para la salud", "verdura.jpg");
 		
 		//UP
 		
